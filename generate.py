@@ -68,8 +68,4 @@ for contact in contacts:
 
 conn.commit()
 cur.close()
-#with open('out.csv' ,'w') as f:
-#    csvwriter = csv.writer(f)
-#    for row in output:
-#        csvwriter.writerow(row)
 
